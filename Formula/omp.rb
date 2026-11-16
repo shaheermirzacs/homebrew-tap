@@ -1,10 +1,10 @@
 class Omp < Formula
   desc "Coding agent with local transcript and Markdown patches"
   homepage "https://github.com/shaheermirzacs/oh-my-pi"
-  url "https://github.com/shaheermirzacs/oh-my-pi/releases/download/v18.20.3-patched/omp-darwin-arm64",
+  url "https://github.com/shaheermirzacs/oh-my-pi/releases/download/v18.21.0-patched/omp-darwin-arm64",
       using: :nounzip
-  version "18.20.3"
-  sha256 "09546edf575cd75702a5116998b2108f24c3d7e146a6d433b027856382dd7098"
+  version "18.21.0"
+  sha256 "359f1fc7df5687756f314896e9e1c8b57b4c9c8908ce534a60e28bae0e64466f"
   license "MIT"
 
   depends_on arch: :arm64
