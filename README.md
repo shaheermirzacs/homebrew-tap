@@ -16,7 +16,7 @@ Use `brew upgrade shaheermirzacs/tap/omp` for upgrades. Keep `update.auto` disab
 
 The executable and formula retain the upstream version (`18.20.2` initially). The fork's `v18.20.2` release tag identifies the patched commit; upstream's tag remains unchanged. Upstream upgrades are manual, not automatic.
 
-For additional patches to the same upstream version, publish a new immutable asset (for example, `omp-darwin-arm64-r1`) under a new fork tag, update the formula URL and SHA-256, and increment the formula's `revision`. Keep `version` equal to the upstream version. Never overwrite an asset already referenced by this tap.
+For additional patches to the same upstream version, publish `omp-darwin-arm64` under a new immutable fork tag (for example, `v18.20.2-sklk.1`), update the formula URL and SHA-256, and increment the formula's `revision`. Keep `version` equal to the upstream version and keep the asset filename unchanged because the install step uses that filename. Never overwrite an asset already referenced by this tap.
 
 ## Publish the next upstream version
 
